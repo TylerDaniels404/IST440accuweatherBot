@@ -1,0 +1,19 @@
+{
+	"propose": {
+		"alias": [],
+		"endpoint": "#",
+		"help": "propose [command]",
+		"description": "To propose an idea."
+	},
+
+	"gem": {
+		"alias": [],
+		"endpoint": "https://rubygems.org/api/v1/gems/{gem}.json",
+		"help": "gem [gem-name]",
+		"description": "Fetches details of the specified Ruby gem"
+	},
+
+	"error": {
+		"exclude": true
+	}
+}
