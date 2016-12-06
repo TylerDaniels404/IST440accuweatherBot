@@ -9,7 +9,7 @@ app.listen(app.get('port'), function() {
 
 var slackTerminal = require('slack-terminalize');
 
-slackTerminal.init('xoxb-112297542976-ghXPnd9C1GIDN2zCPfYZQR4Z', {
+slackTerminal.init('', {
     // slack rtm client options here
     // more info at: https://github.com/slackhq/node-slack-client/blob/master/lib/clients/rtm/client.js
 }, {
